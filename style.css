@@ -1,0 +1,37 @@
+body {
+    background-color: #000;
+    margin: 0;
+    overflow: hidden;
+}
+
+#info {
+    color: white;
+    font-family: monospace;
+    background: src('bg.jpg');
+}
+
+canvas {
+    position: absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+}
+
+img {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+#container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
